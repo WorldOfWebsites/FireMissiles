@@ -1,6 +1,5 @@
 person = raw_input("Who should the missiles be sent to? ")
-print "You want missiles sent to " + person + "? Y/N"
-confirm = raw_input();
+confirm = raw_input("You want missiles sent to " + person + "? Y/N: ")
 
 if confirm == "Y" or confirm == "y":
 	print "Contacting computer... SUCCESS"
