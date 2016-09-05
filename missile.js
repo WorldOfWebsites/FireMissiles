@@ -1,7 +1,7 @@
 function FireMissiles() {
-	var name = prompt("Who should the missiles be sent to?");
+	var name = prompt("Where should the missiles be sent to?\nDISCLAIMER: This will not actually fire missiles");
 	if (name == null) {
-		alert("Please enter a name.");
+		alert("Please enter location.");
 	}
 	else {
 		var confirmMissiles = "You want missiles sent to";
