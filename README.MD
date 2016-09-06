@@ -1,7 +1,7 @@
 # FireMisslies
 If you're angry at someone, put in the name and click fire. Not meant to be taken seriously!
 
-Web version hosted on branch `gh-pages`.
+Web version hosted on branch `gh-pages`. JS curently undergoing a rewrite, check progress on branch `js-rewrite`.
 ## Compiling & running
 
 ## Java
