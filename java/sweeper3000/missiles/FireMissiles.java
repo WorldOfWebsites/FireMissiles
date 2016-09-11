@@ -1,5 +1,6 @@
+package sweeper3000.missiles;
 import java.util.Scanner;
-class FireMissiles {
+public class FireMissiles {
 	public void Missiles() {
 		Scanner input = new Scanner(System.in);
 		System.out.println("DISCLAIMER: This will not actually fire missiles");
@@ -20,9 +21,5 @@ class FireMissiles {
 		else {
 			System.out.println("Invalid response");
 		}
-	}
-	public static void main(String[] args) {
-		FireMissiles fire = new FireMissiles();
-		fire.Missiles();
 	}
 }
