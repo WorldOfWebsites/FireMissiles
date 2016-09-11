@@ -43,6 +43,10 @@ Then create a FireMissiles object:
 
 `FireMissiles someName = new FireMissiles();`
 
+Then call the method Missiles():
+
+`someName.Missiles();`
+
 Then compile and run.
 
 ## Python
