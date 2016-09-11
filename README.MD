@@ -5,9 +5,9 @@ Web version hosted on branch `gh-pages`. JS curently undergoing a rewrite, check
 ## Compiling & running
 
 ## Java
-You need to be able to compile and run java files. If you haven't already, install the Java Development Kit or OpenJDK.
+You need to be able to compile and run Java files. If you haven't already, install the Java Development Kit or OpenJDK.
 
-The Java version is packaged in `sweeper3000.missiles`. There are two methods to run the file, depending on your needs
+The Java version is packaged in `sweeper3000/missiles`. There are two methods to run the file, depending on your needs
 
 ### Using Test.java
 There is a file in the `java` folder called Test.java which imports and loads the code. Use this if you just want to run the program.
