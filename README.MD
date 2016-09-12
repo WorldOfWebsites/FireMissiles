@@ -62,3 +62,12 @@ From a terminal, run `python3 FireMissiles.py`
 You must have ruby installed.
 
 Naviagate to the containing directory and run `ruby FireMissiles.rb`.
+
+## Bash
+You must be able to run bash scripts. You should be good on most Linux distros.
+
+Give the script execute permissions by running in a terminal in the containing directory `chmod 754 FireMissiles.sh`. Or do it from the GUI file manager.
+
+Once you've done that, run `./FireMissiles.sh`.
+
+**Important: You must input either Y or N in uppercase. At this time, no lowercase letters will be accepted and bash will return an error.**
