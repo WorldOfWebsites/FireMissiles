@@ -71,3 +71,14 @@ Give the script execute permissions by running in a terminal in the containing d
 Once you've done that, run `./FireMissiles.sh`.
 
 **Important: You must input either Y or N in uppercase. At this time, no lowercase letters will be accepted and bash will return an error.**
+
+## Batch
+To run batch files, you must have Windows.
+
+You can call the batch file in two different ways:
+
+### Using the GUI File Manager
+Go to the location of the file in the file manager and double click.
+
+### Using the Command Line
+Go to the location of the file and run the command `FireMissiles.bat`. Case is not sensitive, unlike Linux and Bash.
