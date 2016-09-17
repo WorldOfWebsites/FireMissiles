@@ -7,7 +7,7 @@ if confirm == "Y" or confirm == "y":
 	print "Getting location... SUCCESS"
 	print "Missiles launching in 3..2..1"
 	print "Missiles launched"
-	print "Missiles sucessfully sent to " + location + "."
+	print "Missiles successfully sent to " + location + "."
 elif confirm == "N" or confirm == "n":
 	print "Operation aborted."
 else:

@@ -9,7 +9,7 @@ puts "Contacting computer... SUCCESS"
 puts "Getting location... SUCCESS"
 puts "Missiles launching in 3..2..1"
 puts "Missiles launched"
-puts "Missiles sucessfully sent to #{location}."
+puts "Missiles successfully sent to #{location}."
 elsif confirm == "N" or confirm == "n"
 puts "Operation aborted."
 else

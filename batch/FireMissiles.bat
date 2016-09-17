@@ -11,7 +11,7 @@ if "%confirm%" == "Y" (
 	echo "Getting location... SUCCESS"
 	echo "Missiles launching in 3..2..1"
 	echo "Missiles launched"
-	echo "Missiles sucessfully sent to %location%"
+	echo "Missiles successfully sent to %location%"
 )
 else if "%confirm%" == "N" (
 	echo "Operation aborted"
