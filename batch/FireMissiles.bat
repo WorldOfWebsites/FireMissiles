@@ -1,9 +1,8 @@
 cls
 @echo off
 echo "Where Should the missiles be sent to?"
-echo/
 echo "DISCLAIMER: This does not actually fire missiles"
-set /p location
+set /p location=""
 set /p confirm="You want missiles sent to %location%? Y/N"
 
 if "%confirm%" == "Y" (
@@ -19,3 +18,4 @@ else if "%confirm%" == "N" (
 else (
 	echo "Invalid response"
 )
+cmd /k

@@ -9,17 +9,24 @@ public class FireMissiles {
 		System.out.println("You want missiles sent to " + location +"? Y/N");
 		String confirm = input.nextLine();
 
-		if(confirm.contains("Y") || confirm.contains("y")) {
+		switch(confirm) {
+			case "Y":
+			case "y":
 			System.out.println("Contacting computer... SUCCESS");
 			System.out.println("Getting location... SUCCESS");
 			System.out.println("Missiles launching in 3..2..1");
-			System.out.println("Missiles sucessfully sent to " + location + ".");
-		}
-		else if(confirm.contains("N") || confirm.contains("n")) {
-			System.out.println("Operation aborted.");
-		}
-		else {
+			System.out.println("Missiles launched");
+			System.out.println("Missiles successfully sent to " + location + ".");
+			break;
+			
+			case "N":
+			case "n":
+			System.out.println("Operation aborted");
+			break;
+
+			default:
 			System.out.println("Invalid response");
+			break;
 		}
 	}
 }
